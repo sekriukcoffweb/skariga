@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="heroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5F8F5"/>
+      <stop offset="100%" stop-color="#E2ECE5"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" rx="24" fill="url(#heroGrad)"/>
+  <circle cx="650" cy="150" r="120" fill="#79A98A" opacity="0.2"/>
+  <circle cx="150" cy="450" r="160" fill="#1F5A40" opacity="0.1"/>
+  <rect x="180" y="120" width="440" height="360" rx="16" fill="#FFFFFF" stroke="#E1E9E3" stroke-width="4"/>
+  <rect x="210" y="150" width="380" height="200" rx="12" fill="#123B2A"/>
+  <circle cx="320" cy="250" r="60" fill="none" stroke="#79A98A" stroke-width="12" stroke-dasharray="15 10"/>
+  <circle cx="320" cy="250" r="35" fill="#1F5A40"/>
+  <circle cx="320" cy="250" r="15" fill="#FFFFFF"/>
+  <circle cx="460" cy="250" r="40" fill="none" stroke="#FFFFFF" stroke-width="8" stroke-dasharray="12 8"/>
+  <circle cx="460" cy="250" r="20" fill="#79A98A"/>
+  <line x1="230" y1="320" x2="570" y2="320" stroke="#79A98A" stroke-width="8" stroke-linecap="round"/>
+  <rect x="210" y="375" width="140" height="20" rx="6" fill="#123B2A"/>
+  <rect x="210" y="410" width="280" height="12" rx="4" fill="#E1E9E3"/>
+  <rect x="210" y="432" width="200" height="12" rx="4" fill="#E1E9E3"/>
+  <rect x="480" y="385" width="120" height="44" rx="22" fill="#1F5A40"/>
+  <text x="540" y="412" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">KATALOG 2026</text>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450">
+  <rect width="600" height="450" rx="16" fill="#F5F8F5"/>
+  <circle cx="300" cy="225" r="140" fill="#E2ECE5"/>
+  <rect x="180" y="160" width="240" height="150" rx="12" fill="#123B2A"/>
+  <circle cx="245" cy="235" r="42" fill="none" stroke="#79A98A" stroke-width="8" stroke-dasharray="12 6"/>
+  <circle cx="245" cy="235" r="20" fill="#FFFFFF"/>
+  <circle cx="350" cy="235" r="32" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-dasharray="8 6"/>
+  <circle cx="350" cy="235" r="14" fill="#79A98A"/>
+  <rect x="200" y="120" width="60" height="40" fill="#1F5A40" rx="4"/>
+  <rect x="220" y="90" width="20" height="30" fill="#79A98A" rx="2"/>
+  <text x="300" y="370" font-family="system-ui, sans-serif" font-size="24" font-weight="bold" fill="#123B2A" text-anchor="middle">Mesin Pengolahan</text>
+</svg>

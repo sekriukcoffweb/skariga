@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 60" width="280" height="60">
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1b4332"/>
+      <stop offset="100%" stop-color="#2d6a4f"/>
+    </linearGradient>
+  </defs>
+  <rect width="48" height="48" x="6" y="6" rx="12" fill="url(#logoGrad)"/>
+  <path d="M18 36 C22 22, 38 22, 42 36" stroke="#d8f3dc" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <circle cx="30" cy="24" r="6" fill="#f8961e"/>
+  <circle cx="30" cy="24" r="3" fill="#ffffff"/>
+  <text x="64" y="32" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="19" font-weight="800" fill="#1b4332" letter-spacing="0.5">KATALOG PKK</text>
+  <text x="64" y="47" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#52b788" letter-spacing="2">KULINER NUSANTARA</text>
+</svg>
