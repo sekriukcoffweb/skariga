@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <rect width="800" height="600" fill="#F8FAF9"/>
+  <rect x="50" y="40" width="130" height="32" rx="6" fill="#E2ECE5"/>
+  <text x="115" y="62" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" fill="#123B2A" text-anchor="middle">MODEL TI-500</text>
+  <g transform="translate(180, 100)">
+    <rect x="40" y="260" width="360" height="50" rx="8" fill="#123B2A"/>
+    <rect x="20" y="240" width="400" height="30" rx="4" fill="#79A98A"/>
+    <line x1="40" y1="255" x2="400" y2="255" stroke="#1F5A40" stroke-width="4" stroke-dasharray="10 10"/>
+    <rect x="360" y="60" width="20" height="190" fill="#1F5A40"/>
+    <rect x="270" y="30" width="170" height="100" rx="10" fill="#0B2A1E" stroke="#79A98A" stroke-width="3"/>
+    <rect x="290" y="45" width="130" height="40" rx="4" fill="#123B2A"/>
+    <text x="355" y="72" font-family="monospace" font-size="20" font-weight="bold" fill="#25D366" text-anchor="middle">000.00 kg</text>
+    <circle cx="310" cy="105" r="8" fill="#FFFFFF"/>
+    <circle cx="340" cy="105" r="8" fill="#79A98A"/>
+    <circle cx="370" cy="105" r="8" fill="#79A98A"/>
+    <circle cx="400" cy="105" r="8" fill="#25D366"/>
+  </g>
+  <text x="400" y="540" font-family="system-ui, sans-serif" font-size="24" font-weight="bold" fill="#123B2A" text-anchor="middle">Timbangan Digital Industri TI-500</text>
+  <text x="400" y="570" font-family="system-ui, sans-serif" font-size="16" fill="#66736B" text-anchor="middle">Kapasitas Maks. 500 kg - Akurasi 50 gr</text>
+</svg>

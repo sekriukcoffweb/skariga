@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <rect width="800" height="600" fill="#F8FAF9"/>
+  <rect x="50" y="40" width="130" height="32" rx="6" fill="#E2ECE5"/>
+  <text x="115" y="62" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" fill="#123B2A" text-anchor="middle">MODEL SE-20</text>
+  <g transform="translate(200, 110)">
+    <rect x="180" y="80" width="200" height="160" rx="12" fill="#123B2A"/>
+    <line x1="220" y1="80" x2="220" y2="240" stroke="#1F5A40" stroke-width="6"/>
+    <line x1="260" y1="80" x2="260" y2="240" stroke="#1F5A40" stroke-width="6"/>
+    <line x1="300" y1="80" x2="300" y2="240" stroke="#1F5A40" stroke-width="6"/>
+    <line x1="340" y1="80" x2="340" y2="240" stroke="#1F5A40" stroke-width="6"/>
+    <circle cx="120" cy="160" r="90" fill="#1F5A40" stroke="#79A98A" stroke-width="8"/>
+    <circle cx="120" cy="160" r="40" fill="#FFFFFF"/>
+    <rect x="20" y="135" width="40" height="50" fill="#79A98A" rx="4"/>
+    <rect x="95" y="30" width="50" height="40" fill="#79A98A" rx="4"/>
+    <rect x="60" y="260" width="320" height="30" rx="6" fill="#0B2A1E"/>
+  </g>
+  <text x="400" y="540" font-family="system-ui, sans-serif" font-size="24" font-weight="bold" fill="#123B2A" text-anchor="middle">Pompa Sirkulasi Hemat Energi SE-20</text>
+  <text x="400" y="570" font-family="system-ui, sans-serif" font-size="16" fill="#66736B" text-anchor="middle">Debit 200 L/menit - Efisiensi Daya Tinggi IE3</text>
+</svg>
