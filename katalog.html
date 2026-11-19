@@ -4,105 +4,227 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Katalog Produk Pilihan Nusantara | Sekriukcoff</title>
+  <title>Katalog Produk Oleh-Oleh Khas Malang | Sekriukcoff</title>
   <meta name="description"
     content="Katalog resmi produk UMKM Nusantara: Keripik Tempe Malang Kriuk Saujana, Kopi Murni Dampit Semeru Coffee Digital, dan Abon Daging Asli Serabona. 100% alami tanpa pengawet sintetik.">
-  <link rel="canonical" href="https://katalog.example.com/katalog.html">
+  <link rel="canonical" href="https://sekriukcoff.web.id/katalog.html">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <meta name="author" content="Sekriukcoff">
+
+  <!-- Preconnect CDN for Pagespeed -->
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
 
   <!-- Open Graph / Facebook -->
+  <meta property="og:locale" content="id_ID">
+  <meta property="og:site_name" content="Sekriukcoff">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://katalog.example.com/katalog.html">
-  <meta property="og:title" content="Katalog Produk Pilihan Nusantara | Kolektif UMKM Resmi">
+  <meta property="og:url" content="https://sekriukcoff.web.id/katalog.html">
+  <meta property="og:title" content="Katalog Produk Oleh-Oleh Khas Malang | Sekriukcoff">
   <meta property="og:description"
-    content="Temukan keripik tempe renyah, kopi murni lereng Semeru, dan abon daging kaya rempah langsung dari produsen lokal terpilih.">
+    content="Kurasi produk olahan kedelai, kopi murni petani lokal, dan lauk siap santap premium khas daerah tanpa bahan pengawet sintetik.">
   <meta property="og:image"
-    content="https://katalog.example.com/assets/img/products/kriuk-saujana-keripik-tempe-100g.webp">
+    content="https://sekriukcoff.web.id/assets/img/Produk/Kriuk%20Saujana/katalog-tempe-100gr.webp">
+  <meta property="og:image:width" content="1376">
+  <meta property="og:image:height" content="768">
+  <meta property="og:image:alt" content="Katalog Produk Sekriukcoff">
+  <meta property="og:image:type" content="image/webp">
 
   <!-- Twitter / X -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Katalog Produk Pilihan Nusantara | Kolektif UMKM Resmi">
+  <meta name="twitter:site" content="@sekriukcoff">
+  <meta name="twitter:title" content="Katalog Produk Oleh-Oleh Khas Malang | Sekriukcoff">
   <meta name="twitter:description"
     content="Kurasi produk olahan kedelai, kopi murni petani lokal, dan lauk siap santap premium khas daerah tanpa bahan pengawet sintetik.">
   <meta name="twitter:image"
-    content="https://katalog.example.com/assets/img/products/kriuk-saujana-keripik-tempe-100g.webp">
+    content="https://sekriukcoff.web.id/assets/img/Produk/Kriuk%20Saujana/katalog-tempe-100gr.webp">
 
   <!-- Favicon -->
   <link rel="icon" type="image/webp" href="assets/img/sekriukcoff.webp">
+  <link rel="apple-touch-icon" href="assets/img/sekriukcoff.webp">
+
+  <!-- Preconnect CDN for Pagespeed -->
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
 
   <!-- Bootstrap 5 CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
   <!-- Custom CSS -->
   <link rel="stylesheet" href="assets/css/style.css">
 
-  <!-- JSON-LD Schema (CollectionPage & ItemList) -->
+  <!-- JSON-LD Schema (CollectionPage, ItemList, AEO & GEO) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "CollectionPage",
-    "@id": "https://katalog.example.com/katalog.html#collection",
-    "name": "Katalog Produk Pilihan Nusantara",
-    "description": "Kurasi produk olahan kedelai, kopi murni petani lokal, dan lauk siap santap premium khas daerah tanpa bahan pengawet sintetik.",
-    "url": "https://katalog.example.com/katalog.html",
-    "mainEntity": {
-      "@type": "ItemList",
-      "numberOfItems": 9,
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Kriuk Saujana - Keripik Tempe Original 100gr",
-          "url": "https://katalog.example.com/produk/kriuk-saujana-keripik-tempe-100g.html"
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Beranda",
+            "item": "https://sekriukcoff.web.id/index.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Katalog Produk",
+            "item": "https://sekriukcoff.web.id/katalog.html"
+          }
+        ]
+      },
+      {
+        "@type": "CollectionPage",
+        "@id": "https://sekriukcoff.web.id/katalog.html#collection",
+        "name": "Katalog Produk Pilihan Nusantara - Sekriukcoff",
+        "description": "Kurasi produk olahan kedelai, kopi murni petani lokal, dan lauk siap santap premium khas Malang tanpa bahan pengawet sintetik.",
+        "url": "https://sekriukcoff.web.id/katalog.html",
+        "isPartOf": {
+          "@type": "WebSite",
+          "@id": "https://sekriukcoff.web.id/#website",
+          "name": "Sekriukcoff",
+          "url": "https://sekriukcoff.web.id/"
         },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Kriuk Saujana - Keripik Tempe 200gr (Pouch Keluarga)",
-          "url": "https://katalog.example.com/produk/kriuk-saujana-keripik-tempe-200g.html"
+        "publisher": {
+          "@type": [
+            "Organization",
+            "Store"
+          ],
+          "@id": "https://sekriukcoff.web.id/#organization",
+          "name": "Sekriukcoff",
+          "legalName": "Sekriukcoff - Kolektif Kuliner Artisan UMKM Malang",
+          "alternateName": [
+            "SErabona KRIUK saujana COFFee digital",
+            "Sekriukcoff Malang",
+            "Kolektif Kuliner Artisan Malang"
+          ],
+          "url": "https://sekriukcoff.web.id/",
+          "logo": {
+            "@type": "ImageObject",
+            "@id": "https://sekriukcoff.web.id/#logo",
+            "url": "https://sekriukcoff.web.id/assets/img/sekriukcoff.webp",
+            "caption": "Logo Sekriukcoff",
+            "width": "512",
+            "height": "512"
+          },
+          "image": "https://sekriukcoff.web.id/assets/img/sekriukcoff.webp",
+          "description": "Kolektif resmi tiga produsen kuliner artisan UMKM unggulan Malang: Keripik Tempe Kriuk Saujana, Kopi Robusta Dampit Semeru Coffee Digital, dan Abon Daging Sapi & Ayam Serabona.",
+          "telephone": "+62-815-5338-8310",
+          "priceRange": "Rp10.000 - Rp75.000",
+          "currenciesAccepted": "IDR",
+          "paymentAccepted": "Cash, Bank Transfer, QRIS",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Malang",
+            "addressLocality": "Malang",
+            "addressRegion": "Jawa Timur",
+            "postalCode": "65100",
+            "addressCountry": "ID"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": -7.983908,
+            "longitude": 112.621391
+          },
+          "contactPoint": [
+            {
+              "@type": "ContactPoint",
+              "telephone": "+62-815-5338-8310",
+              "contactType": "sales",
+              "name": "Talita (CP Kriuk Saujana)",
+              "areaServed": "ID",
+              "availableLanguage": [
+                "id",
+                "en"
+              ]
+            },
+            {
+              "@type": "ContactPoint",
+              "telephone": "+62-813-3363-3565",
+              "contactType": "sales",
+              "name": "Artha (CP Serabona)",
+              "areaServed": "ID",
+              "availableLanguage": [
+                "id",
+                "en"
+              ]
+            },
+            {
+              "@type": "ContactPoint",
+              "telephone": "+62-881-0266-96817",
+              "contactType": "sales",
+              "name": "Jessika (CP Coffee Digital)",
+              "areaServed": "ID",
+              "availableLanguage": [
+                "id",
+                "en"
+              ]
+            }
+          ]
         },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Coffee Digital - Grade Robusta Dampit 250gr",
-          "url": "https://katalog.example.com/produk/coffee-digital-grade-robusta-dampit.html"
-        },
-        {
-          "@type": "ListItem",
-          "position": 4,
-          "name": "Coffee Digital - Premium Robusta Dampit 250gr",
-          "url": "https://katalog.example.com/produk/coffee-digital-premium-robusta-dampit.html"
-        },
-        {
-          "@type": "ListItem",
-          "position": 5,
-          "name": "Coffee Digital - Premium Mix Specialty 250gr",
-          "url": "https://katalog.example.com/produk/coffee-digital-premium-mix.html"
-        },
-        {
-          "@type": "ListItem",
-          "position": 6,
-          "name": "Serabona - Abon Ayam Kacang Renyah 100gr",
-          "url": "https://katalog.example.com/produk/serabona-abon-ayam-100g.html"
-        },
-        {
-          "@type": "ListItem",
-          "position": 7,
-          "name": "Serabona - Abon Sapi Kacang Rempah 100gr",
-          "url": "https://katalog.example.com/produk/serabona-abon-sapi-100g.html"
-        },
-        {
-          "@type": "ListItem",
-          "position": 8,
-          "name": "Serabona - Abon Sapi Premium Jar 250gr",
-          "url": "https://katalog.example.com/produk/serabona-abon-sapi-jar-250g.html"
-        },
-        {
-          "@type": "ListItem",
-          "position": 9,
-          "name": "Kriuk Saujana - Bundling Oleh-Oleh 3 Pouch (125gr x 3)",
-          "url": "https://katalog.example.com/produk/kriuk-saujana-bundling-3-pouch.html"
+        "mainEntity": {
+          "@type": "ItemList",
+          "numberOfItems": 9,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Kriuk Saujana - Keripik Tempe Original 100gr",
+              "url": "https://sekriukcoff.web.id/produk/kriuk-saujana-keripik-tempe-100g.html"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Kriuk Saujana - Keripik Tempe 200gr (Pouch Keluarga)",
+              "url": "https://sekriukcoff.web.id/produk/kriuk-saujana-keripik-tempe-200g.html"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Kriuk Saujana - Bundling Oleh-Oleh 3 Pouch (125gr x 3)",
+              "url": "https://sekriukcoff.web.id/produk/kriuk-saujana-bundling-3-pouch.html"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Coffee Digital - Grade Robusta Dampit 250gr",
+              "url": "https://sekriukcoff.web.id/produk/coffee-digital-grade-robusta-dampit.html"
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "name": "Coffee Digital - Premium Robusta Dampit 250gr",
+              "url": "https://sekriukcoff.web.id/produk/coffee-digital-premium-robusta-dampit.html"
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "name": "Coffee Digital - Premium Mix Specialty 250gr",
+              "url": "https://sekriukcoff.web.id/produk/coffee-digital-premium-mix.html"
+            },
+            {
+              "@type": "ListItem",
+              "position": 7,
+              "name": "Serabona - Abon Ayam Spesial 100gr",
+              "url": "https://sekriukcoff.web.id/produk/serabona-abon-ayam-100g.html"
+            },
+            {
+              "@type": "ListItem",
+              "position": 8,
+              "name": "Serabona - Abon Sapi Kacang Rempah 100gr",
+              "url": "https://sekriukcoff.web.id/produk/serabona-abon-sapi-100g.html"
+            },
+            {
+              "@type": "ListItem",
+              "position": 9,
+              "name": "Serabona - Abon Sapi Premium Jar 250gr",
+              "url": "https://sekriukcoff.web.id/produk/serabona-abon-sapi-jar-250g.html"
+            }
+          ]
         }
-      ]
-    }
+      }
+    ]
   }
   </script>
 </head>
@@ -114,8 +236,7 @@
     <nav class="navbar navbar-expand-lg navbar-light" aria-label="Navigasi Utama">
       <div class="container">
         <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
-          <img src="assets/img/sekriukcoff.webp" alt="Logo Sekriukcoff" width="34" height="34"
-            class="navbar-brand-logo">
+          <img src="assets/img/sekriukcoff.webp" alt="Logo Sekriukcoff" width="34" height="34" class="navbar-brand-logo" decoding="async" loading="eager">
           <span class="navbar-brand-text">Sekriukcoff</span>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#siteNavbar"
@@ -149,7 +270,7 @@
             </li>
             <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
               <a href="kontak.html" class="btn btn-primary btn-sm px-3">
-                Kontak CP
+                Contact Person
               </a>
             </li>
           </ul>
@@ -299,8 +420,7 @@
                   </svg>
                   <span>4.9</span> <span class="count">(89)</span>
                 </div>
-                <img src="assets/img/products/kriuk-saujana-keripik-tempe-100g.webp"
-                  alt="Keripik Tempe Original 100gr Kriuk Saujana" width="900" height="1200" loading="lazy">
+                <img src="assets/img/Produk/Kriuk Saujana/katalog-tempe-100gr.webp" width="1376" height="768" decoding="async" alt="Keripik Tempe Original 100gr Kriuk Saujana" loading="lazy">
               </div>
               <div class="card-stitch-body">
                 <div class="card-stitch-brand">Kriuk Saujana</div>
@@ -363,8 +483,7 @@
                   </svg>
                   <span>4.7</span> <span class="count">(116)</span>
                 </div>
-                <img src="assets/img/products/kriuk-saujana-keripik-tempe-200g.webp"
-                  alt="Keripik Tempe 200gr Pouch Keluarga Kriuk Saujana" width="900" height="1200" loading="lazy">
+                <img src="assets/img/Produk/Kriuk Saujana/katalog-tempe-200gr.webp" width="1376" height="768" decoding="async" alt="Keripik Tempe 200gr Pouch Keluarga Kriuk Saujana" loading="lazy">
               </div>
               <div class="card-stitch-body">
                 <div class="card-stitch-brand">Kriuk Saujana</div>
@@ -426,8 +545,7 @@
                   </svg>
                   <span>4.5</span> <span class="count">(52)</span>
                 </div>
-                <img src="assets/img/products/coffee-digital-grade-robusta-dampit.webp"
-                  alt="Grade Robusta Dampit 250gr Coffee Digital" width="900" height="1200" loading="lazy">
+                <img src="assets/img/Produk/Coffee Digital/katalog-grade-robusta-dampit-250gr.webp" width="1376" height="768" decoding="async" alt="Grade Robusta Dampit 250gr Coffee Digital" loading="lazy">
               </div>
               <div class="card-stitch-body">
                 <div class="card-stitch-brand">Coffee Digital</div>
@@ -490,8 +608,7 @@
                   </svg>
                   <span>5.0</span> <span class="count">(119)</span>
                 </div>
-                <img src="assets/img/products/Premium-Robusta-Dampit.webp"
-                  alt="Premium Robusta Dampit 250gr Coffee Digital" width="900" height="1200" loading="lazy">
+                <img src="assets/img/Produk/Coffee Digital/katalog-premium-robusta-dampit-250gr.webp" width="1376" height="768" decoding="async" alt="Premium Robusta Dampit 250gr Coffee Digital" loading="lazy">
               </div>
               <div class="card-stitch-body">
                 <div class="card-stitch-brand">Coffee Digital</div>
@@ -555,8 +672,7 @@
                   </svg>
                   <span>4.6</span> <span class="count">(72)</span>
                 </div>
-                <img src="assets/img/products/Premium-House-Blend-Mix.webp"
-                  alt="Premium Mix Specialty 250gr Coffee Digital" width="900" height="1200" loading="lazy">
+                <img src="assets/img/Produk/Coffee Digital/katalog-premium-mix-specialty-250gr.webp" width="1376" height="768" decoding="async" alt="Premium Mix Specialty 250gr Coffee Digital" loading="lazy">
               </div>
               <div class="card-stitch-body">
                 <div class="card-stitch-brand">Coffee Digital</div>
@@ -619,8 +735,7 @@
                   </svg>
                   <span>4.4</span> <span class="count">(61)</span>
                 </div>
-                <img src="assets/img/products/serabona-abon-ayam-100g.webp" alt="Abon Ayam Kacang Renyah 100gr Serabona"
-                  width="900" height="1200" loading="lazy">
+                <img src="assets/img/Produk/Serabona/katalog-abon-ayam-100gr.webp" width="1376" height="768" decoding="async" alt="Abon Ayam Kacang Renyah 100gr Serabona" loading="lazy">
               </div>
               <div class="card-stitch-body">
                 <div class="card-stitch-brand">Serabona</div>
@@ -683,8 +798,7 @@
                   </svg>
                   <span>4.8</span> <span class="count">(78)</span>
                 </div>
-                <img src="assets/img/products/Abon-Sapi-Kacang-100g.webp" alt="Abon Sapi Kacang Rempah 100gr Serabona"
-                  width="900" height="1200" loading="lazy">
+                <img src="assets/img/Produk/Serabona/katalog-abon-sapi-100gr.webp" width="1376" height="768" decoding="async" alt="Abon Sapi Kacang Rempah 100gr Serabona" loading="lazy">
               </div>
               <div class="card-stitch-body">
                 <div class="card-stitch-brand">Serabona</div>
@@ -746,8 +860,7 @@
                   </svg>
                   <span>4.9</span> <span class="count">(68)</span>
                 </div>
-                <img src="assets/img/products/Abon-Sapi-Premiun-250g.webp" alt="Abon Sapi Premium Jar 250gr Serabona"
-                  width="900" height="1200" loading="lazy">
+                <img src="assets/img/Produk/Serabona/katalog-abon-sapi-250gr.webp" width="1376" height="768" decoding="async" alt="Abon Sapi Premium Jar 250gr Serabona" loading="lazy">
               </div>
               <div class="card-stitch-body">
                 <div class="card-stitch-brand">Serabona</div>
@@ -811,8 +924,7 @@
                   </svg>
                   <span>4.5</span> <span class="count">(48)</span>
                 </div>
-                <img src="assets/img/products/serabona_IMG_0626.webp"
-                  alt="Bundling Oleh-Oleh 3 Pouch Kriuk Saujana" width="900" height="1200" loading="lazy">
+                <img src="assets/img/Produk/Kriuk Saujana/Bundling-Oleh-Oleh-3-Pouch.webp" width="750" height="1000" decoding="async" alt="Bundling Oleh-Oleh 3 Pouch Kriuk Saujana" loading="lazy">
               </div>
               <div class="card-stitch-body">
                 <div class="card-stitch-brand">Kriuk Saujana</div>
@@ -890,8 +1002,7 @@
         <!-- Kolom 1: Brand & Kredibilitas -->
         <div class="col-lg-3 col-md-6">
           <div class="footer-brand-logo">
-            <img src="assets/img/sekriukcoff.webp" alt="Logo Sekriukcoff" width="34" height="34"
-              class="footer-brand-logo-img">
+            <img src="assets/img/sekriukcoff.webp" alt="Logo Sekriukcoff" width="34" height="34" class="footer-brand-logo-img" decoding="async" loading="lazy">
             <span class="footer-brand-name">Sekriukcoff</span>
           </div>
           <p class="footer-brand-desc">

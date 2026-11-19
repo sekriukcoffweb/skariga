@@ -1,5 +1,70 @@
+# robots.txt for https://sekriukcoff.web.id/
+# Diizinkan untuk seluruh mesin pencari dan AI Overview / Generative Search
+
 User-agent: *
 Allow: /
+Disallow: /scratch/
+Disallow: /node_modules/
 
-# Sitemap
-Sitemap: https://katalog.example.com/sitemap.xml
+# Google AI & Search (Googlebot, Google-Extended for AI Overviews / Gemini)
+User-agent: Googlebot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+# OpenAI (SearchGPT, ChatGPT Browsing, GPTBot)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic (ClaudeBot, Claude-Web)
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+
+# Microsoft Bing & Copilot
+User-agent: Bingbot
+Allow: /
+
+# Apple AI & Siri
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# ByteDance / TikTok AI
+User-agent: Bytespider
+Allow: /
+
+# Common Crawl & Meta AI
+User-agent: CCBot
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+# Amazon AI
+User-agent: Amazonbot
+Allow: /
+
+# Sitemap Resmi
+Sitemap: https://sekriukcoff.web.id/sitemap.xml

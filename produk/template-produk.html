@@ -15,25 +15,34 @@
        6. Daftarkan URL baru ke sitemap.xml.
        ===================================================================== -->
 
-  <title>[NAMA_PRODUK] | Sekriukcoff</title>
+  <title>Detail Produk Kuliner UMKM | Sekriukcoff</title>
   <meta name="description" content="[DESKRIPSI_SINGKAT_SEO_150_KARAKTER_MENJELASKAN_SPESIFIKASI_DAN_CP_PRODUK]">
-  <link rel="canonical" href="https://katalog.example.com/produk/[SLUG_PRODUK].html">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <meta name="author" content="Sekriukcoff">
+  <link rel="canonical" href="https://sekriukcoff.web.id/produk/[SLUG_PRODUK].html">
 
   <!-- Open Graph / Facebook -->
+  <meta property="og:locale" content="id_ID">
+  <meta property="og:site_name" content="Sekriukcoff">
   <meta property="og:type" content="product">
-  <meta property="og:url" content="https://katalog.example.com/produk/[SLUG_PRODUK].html">
-  <meta property="og:title" content="[NAMA_PRODUK] | Katalog Produk PKK">
+  <meta property="og:url" content="https://sekriukcoff.web.id/produk/[SLUG_PRODUK].html">
+  <meta property="og:title" content="Detail Produk Kuliner UMKM | Sekriukcoff">
   <meta property="og:description" content="[DESKRIPSI_SINGKAT_PRODUK]">
-  <meta property="og:image" content="https://katalog.example.com/assets/img/products/[GAMBAR_PRODUK].webp">
+  <meta property="og:image" content="https://sekriukcoff.web.id/assets/img/products/[GAMBAR_PRODUK].webp">
 
   <!-- Twitter / X -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="[NAMA_PRODUK] | Katalog Produk PKK">
+  <meta name="twitter:title" content="Detail Produk Kuliner UMKM | Sekriukcoff">
   <meta name="twitter:description" content="[DESKRIPSI_SINGKAT_PRODUK]">
-  <meta name="twitter:image" content="https://katalog.example.com/assets/img/products/[GAMBAR_PRODUK].webp">
+  <meta name="twitter:image" content="https://sekriukcoff.web.id/assets/img/products/[GAMBAR_PRODUK].webp">
 
   <!-- Favicon -->
   <link rel="icon" type="image/webp" href="../assets/img/sekriukcoff.webp">
+  <link rel="apple-touch-icon" href="../assets/img/sekriukcoff.webp">
+
+  <!-- Preconnect CDN for Pagespeed -->
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
 
   <!-- Bootstrap 5 CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
@@ -52,40 +61,40 @@
             "@type": "ListItem",
             "position": 1,
             "name": "Beranda",
-            "item": "https://katalog.example.com/index.html"
+            "item": "https://sekriukcoff.web.id/index.html"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Katalog Produk",
-            "item": "https://katalog.example.com/katalog.html"
+            "item": "https://sekriukcoff.web.id/katalog.html"
           },
           {
             "@type": "ListItem",
             "position": 3,
             "name": "[NAMA_KATEGORI]",
-            "item": "https://katalog.example.com/kategori/[SLUG_KATEGORI].html"
+            "item": "https://sekriukcoff.web.id/kategori/[SLUG_KATEGORI].html"
           },
           {
             "@type": "ListItem",
             "position": 4,
             "name": "[NAMA_PRODUK]",
-            "item": "https://katalog.example.com/produk/[SLUG_PRODUK].html"
+            "item": "https://sekriukcoff.web.id/produk/[SLUG_PRODUK].html"
           }
         ]
       },
       {
         "@type": "Product",
-        "@id": "https://katalog.example.com/produk/[SLUG_PRODUK].html#product",
+        "@id": "https://sekriukcoff.web.id/produk/[SLUG_PRODUK].html#product",
         "name": "[NAMA_PRODUK]",
         "description": "[DESKRIPSI_LENGKAP_PRODUK_SESUAI_HALAMAN]",
         "image": [
-          "https://katalog.example.com/assets/img/products/[GAMBAR_PRODUK].webp"
+          "https://sekriukcoff.web.id/assets/img/products/[GAMBAR_PRODUK].webp"
         ],
         "category": "[NAMA_KATEGORI]",
         "offers": {
           "@type": "Offer",
-          "url": "https://katalog.example.com/produk/[SLUG_PRODUK].html",
+          "url": "https://sekriukcoff.web.id/produk/[SLUG_PRODUK].html",
           "priceCurrency": "IDR",
           "price": "[HARGA_NUMERIK]",
           "availability": "https://schema.org/InStock",
@@ -106,7 +115,7 @@
     <nav class="navbar navbar-expand-lg navbar-light" aria-label="Navigasi Utama">
       <div class="container">
         <a class="navbar-brand d-flex align-items-center gap-2" href="../index.html">
-          <img src="../assets/img/sekriukcoff.webp" alt="Logo Sekriukcoff" width="34" height="34" class="navbar-brand-logo">
+          <img src="../assets/img/sekriukcoff.webp" alt="Logo Sekriukcoff" width="34" height="34" class="navbar-brand-logo" decoding="async" loading="eager">
           <span class="navbar-brand-text">Sekriukcoff</span>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#siteNavbar" aria-controls="siteNavbar" aria-expanded="false" aria-label="Buka navigasi">
@@ -134,7 +143,7 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../kontak.html">Kontak CP</a>
+              <a class="nav-link" href="../kontak.html">Contact Person</a>
             </li>
             <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
               <a class="btn btn-whatsapp btn-sm" href="https://wa.me/[NOMOR_WA_CP_PRODUK]?text=Halo%20[NAMA_CP]%2C%20saya%20ingin%20memesan%20[NAMA_PRODUK]." target="_blank" rel="noopener noreferrer" aria-label="WhatsApp CP Produk">
@@ -168,7 +177,7 @@
           <!-- Kolom Foto Produk -->
           <div class="col-lg-6">
             <div class="product-detail-img-box mx-auto">
-              <img src="../assets/img/products/[GAMBAR_PRODUK].webp" alt="[NAMA_PRODUK]" width="900" height="1200" class="img-fluid">
+              <img src="../assets/img/products/[GAMBAR_PRODUK].webp" alt="[NAMA_PRODUK]" width="900" height="1200" class="img-fluid" decoding="async" loading="lazy">
             </div>
             <div class="p-3 bg-light-custom rounded border">
               <span class="small fw-bold text-muted d-block mb-1">Jaminan Kualitas &amp; Pengiriman:</span>
@@ -327,7 +336,7 @@
         <!-- Kolom 1: Brand & Kredibilitas -->
         <div class="col-lg-3 col-md-6">
           <div class="footer-brand-logo">
-            <img src="../assets/img/sekriukcoff.webp" alt="Logo Sekriukcoff" width="34" height="34" class="footer-brand-logo-img">
+            <img src="../assets/img/sekriukcoff.webp" alt="Logo Sekriukcoff" width="34" height="34" class="footer-brand-logo-img" decoding="async" loading="lazy">
             <span class="footer-brand-name">Sekriukcoff</span>
           </div>
           <p class="footer-brand-desc">

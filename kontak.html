@@ -3,25 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hubungi Kami &amp; Direktori Contact Person | Sekriukcoff</title>
-  <meta name="description" content="Direktori resmi Contact Person (CP) Katalog Produk PKK: Talita (Kriuk Saujana), Artha (Serabona), dan Jessika (Coffee Digital). Hubungi langsung via WhatsApp.">
-  <link rel="canonical" href="https://katalog.example.com/kontak.html">
+  <title>Kontak & Pemesanan Resmi (Contact Person) | Sekriukcoff</title>
+  <meta name="description" content="Direktori resmi Contact Person (CP) Sekriukcoff: Talita (Kriuk Saujana), Artha (Serabona), dan Jessika (Coffee Digital). Hubungi langsung via WhatsApp.">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <meta name="author" content="Sekriukcoff">
+  <link rel="canonical" href="https://sekriukcoff.web.id/kontak.html">
 
   <!-- Open Graph / Facebook -->
+  <meta property="og:locale" content="id_ID">
+  <meta property="og:site_name" content="Sekriukcoff">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://katalog.example.com/kontak.html">
-  <meta property="og:title" content="Hubungi Kami &amp; Direktori CP | Produk PKK">
+  <meta property="og:url" content="https://sekriukcoff.web.id/kontak.html">
+  <meta property="og:title" content="Kontak & Pemesanan Resmi (Contact Person) | Sekriukcoff">
   <meta property="og:description" content="Kontak resmi perwakilan unit produk: Kriuk Saujana, Serabona, dan Coffee Digital. Respon ramah dan cepat.">
-  <meta property="og:image" content="https://katalog.example.com/assets/img/products/kriuk-saujana-keripik-tempe-100g.webp">
+  <meta property="og:image" content="https://sekriukcoff.web.id/assets/img/products/kriuk-saujana-keripik-tempe-100g.webp">
 
   <!-- Twitter / X -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Hubungi Kami &amp; Direktori CP | Produk PKK">
+  <meta name="twitter:title" content="Kontak & Pemesanan Resmi (Contact Person) | Sekriukcoff">
   <meta name="twitter:description" content="Kontak resmi WhatsApp per produk kuliner dan komoditas PKK.">
-  <meta name="twitter:image" content="https://katalog.example.com/assets/img/products/kriuk-saujana-keripik-tempe-100g.webp">
+  <meta name="twitter:image" content="https://sekriukcoff.web.id/assets/img/products/kriuk-saujana-keripik-tempe-100g.webp">
 
   <!-- Favicon -->
   <link rel="icon" type="image/webp" href="assets/img/sekriukcoff.webp">
+  <link rel="apple-touch-icon" href="assets/img/sekriukcoff.webp">
+
+  <!-- Preconnect CDN for Pagespeed -->
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
 
   <!-- Bootstrap 5 CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
@@ -32,39 +41,109 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "ContactPage",
-    "@id": "https://katalog.example.com/kontak.html#contact",
-    "name": "Direktori Kontak Contact Person Produk PKK",
-    "description": "Daftar Contact Person resmi untuk pemesanan Kriuk Saujana, Serabona, dan Coffee Digital.",
-    "url": "https://katalog.example.com/kontak.html",
-    "mainEntity": {
-      "@type": "Organization",
-      "name": "Katalog Produk PKK",
-      "url": "https://katalog.example.com/",
-      "contactPoint": [
-        {
-          "@type": "ContactPoint",
-          "name": "Talita (CP Kriuk Saujana)",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Beranda",
+            "item": "https://sekriukcoff.web.id/index.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Contact Person",
+            "item": "https://sekriukcoff.web.id/kontak.html"
+          }
+        ]
+      },
+      {
+        "@type": "ContactPage",
+        "@id": "https://sekriukcoff.web.id/kontak.html#contact",
+        "name": "Direktori Kontak Contact Person Sekriukcoff",
+        "description": "Daftar Contact Person resmi untuk pemesanan langsung produk Kriuk Saujana, Serabona, dan Coffee Digital.",
+        "url": "https://sekriukcoff.web.id/kontak.html",
+        "mainEntity": {
+          "@type": [
+            "Organization",
+            "Store"
+          ],
+          "@id": "https://sekriukcoff.web.id/#organization",
+          "name": "Sekriukcoff",
+          "legalName": "Sekriukcoff - Kolektif Kuliner Artisan UMKM Malang",
+          "alternateName": [
+            "SErabona KRIUK saujana COFFee digital",
+            "Sekriukcoff Malang",
+            "Kolektif Kuliner Artisan Malang"
+          ],
+          "url": "https://sekriukcoff.web.id/",
+          "logo": {
+            "@type": "ImageObject",
+            "@id": "https://sekriukcoff.web.id/#logo",
+            "url": "https://sekriukcoff.web.id/assets/img/sekriukcoff.webp",
+            "caption": "Logo Sekriukcoff",
+            "width": "512",
+            "height": "512"
+          },
+          "image": "https://sekriukcoff.web.id/assets/img/sekriukcoff.webp",
+          "description": "Kolektif resmi tiga produsen kuliner artisan UMKM unggulan Malang: Keripik Tempe Kriuk Saujana, Kopi Robusta Dampit Semeru Coffee Digital, dan Abon Daging Sapi & Ayam Serabona.",
           "telephone": "+62-815-5338-8310",
-          "contactType": "customer service",
-          "areaServed": "ID"
-        },
-        {
-          "@type": "ContactPoint",
-          "name": "Artha (CP Serabona)",
-          "telephone": "+62-813-3363-3565",
-          "contactType": "customer service",
-          "areaServed": "ID"
-        },
-        {
-          "@type": "ContactPoint",
-          "name": "Jessika (CP Coffee Digital)",
-          "telephone": "+62-881-0266-96817",
-          "contactType": "customer service",
-          "areaServed": "ID"
+          "priceRange": "Rp10.000 - Rp75.000",
+          "currenciesAccepted": "IDR",
+          "paymentAccepted": "Cash, Bank Transfer, QRIS",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Malang",
+            "addressLocality": "Malang",
+            "addressRegion": "Jawa Timur",
+            "postalCode": "65100",
+            "addressCountry": "ID"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": -7.983908,
+            "longitude": 112.621391
+          },
+          "contactPoint": [
+            {
+              "@type": "ContactPoint",
+              "telephone": "+62-815-5338-8310",
+              "contactType": "sales",
+              "name": "Talita (CP Kriuk Saujana)",
+              "areaServed": "ID",
+              "availableLanguage": [
+                "id",
+                "en"
+              ]
+            },
+            {
+              "@type": "ContactPoint",
+              "telephone": "+62-813-3363-3565",
+              "contactType": "sales",
+              "name": "Artha (CP Serabona)",
+              "areaServed": "ID",
+              "availableLanguage": [
+                "id",
+                "en"
+              ]
+            },
+            {
+              "@type": "ContactPoint",
+              "telephone": "+62-881-0266-96817",
+              "contactType": "sales",
+              "name": "Jessika (CP Coffee Digital)",
+              "areaServed": "ID",
+              "availableLanguage": [
+                "id",
+                "en"
+              ]
+            }
+          ]
         }
-      ]
-    }
+      }
+    ]
   }
   </script>
 </head>
@@ -75,7 +154,7 @@
     <nav class="navbar navbar-expand-lg navbar-light" aria-label="Navigasi Utama">
       <div class="container">
         <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
-          <img src="assets/img/sekriukcoff.webp" alt="Logo Sekriukcoff" width="34" height="34" class="navbar-brand-logo">
+          <img src="assets/img/sekriukcoff.webp" alt="Logo Sekriukcoff" width="34" height="34" class="navbar-brand-logo" decoding="async" loading="eager">
           <span class="navbar-brand-text">Sekriukcoff</span>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#siteNavbar" aria-controls="siteNavbar" aria-expanded="false" aria-label="Buka navigasi">
@@ -107,7 +186,7 @@
             </li>
             <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
               <a href="kontak.html" class="btn btn-primary btn-sm px-3 active" aria-current="page">
-                Kontak CP
+                Contact Person
               </a>
             </li>
           </ul>
@@ -121,7 +200,7 @@
     <div class="container">
       <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="index.html">Beranda</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Kontak CP</li>
+        <li class="breadcrumb-item active" aria-current="page">Contact Person</li>
       </ol>
     </div>
   </nav>
@@ -274,7 +353,7 @@
         <!-- Kolom 1: Brand & Kredibilitas -->
         <div class="col-lg-3 col-md-6">
           <div class="footer-brand-logo">
-            <img src="assets/img/sekriukcoff.webp" alt="Logo Sekriukcoff" width="34" height="34" class="footer-brand-logo-img">
+            <img src="assets/img/sekriukcoff.webp" alt="Logo Sekriukcoff" width="34" height="34" class="footer-brand-logo-img" decoding="async" loading="lazy">
             <span class="footer-brand-name">Sekriukcoff</span>
           </div>
           <p class="footer-brand-desc">
