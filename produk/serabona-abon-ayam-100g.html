@@ -42,169 +42,225 @@
 
   <!-- JSON-LD Schema (Product & BreadcrumbList) -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Beranda",
-            "item": "https://sekriukcoff.web.id/index.html"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Katalog Produk",
-            "item": "https://sekriukcoff.web.id/katalog.html"
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "Abon Nusantara",
-            "item": "https://sekriukcoff.web.id/kategori/abon.html"
-          },
-          {
-            "@type": "ListItem",
-            "position": 4,
-            "name": "Serabona - Abon Ayam Spesial 100g",
-            "item": "https://sekriukcoff.web.id/produk/serabona-abon-ayam-100g.html"
-          }
-        ]
-      },
-      {
-        "@type": "Product",
-        "@id": "https://sekriukcoff.web.id/produk/serabona-abon-ayam-100g.html#product",
-        "name": "Serabona - Abon Ayam Spesial 100g",
-        "image": [
-          "https://sekriukcoff.web.id/assets/img/Produk/Serabona/katalog-abon-ayam-100gr.webp"
-        ],
-        "description": "Abon daging ayam murni dengan serat halus, bumbu rempah tradisional, dan taburan kacang tanah sangrai renyah. Higienis dalam toples jar 100g.",
-        "sku": "SB-ABM100",
-        "brand": {
-          "@type": "Brand",
-          "name": "Serabona"
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Beranda",
+          "item": "https://sekriukcoff.web.id/index.html"
         },
-        "category": "Abon Nusantara",
-        "offers": {
-          "@type": "Offer",
-          "url": "https://sekriukcoff.web.id/produk/serabona-abon-ayam-100g.html",
-          "priceCurrency": "IDR",
-          "price": "17000",
-          "priceValidUntil": "2027-12-31",
-          "itemCondition": "https://schema.org/NewCondition",
-          "availability": "https://schema.org/InStock",
-          "seller": {
-            "@type": "Person",
-            "name": "Artha (CP Serabona)",
-            "telephone": "+62-813-3363-3565"
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Katalog Produk",
+          "item": "https://sekriukcoff.web.id/katalog.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Abon Nusantara",
+          "item": "https://sekriukcoff.web.id/kategori/abon.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Serabona - Abon Ayam Spesial 100g",
+          "item": "https://sekriukcoff.web.id/produk/serabona-abon-ayam-100g.html"
+        }
+      ]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://sekriukcoff.web.id/produk/serabona-abon-ayam-100g.html#product",
+      "name": "Serabona - Abon Ayam Spesial 100g",
+      "image": [
+        "https://sekriukcoff.web.id/assets/img/Produk/Serabona/katalog-abon-ayam-100gr.webp"
+      ],
+      "description": "Abon daging ayam murni dengan serat halus, bumbu rempah tradisional, dan taburan kacang tanah sangrai renyah. Higienis dalam toples jar 100g.",
+      "sku": "SKU-SB-AYM100",
+      "brand": {
+        "@type": "Brand",
+        "name": "Serabona"
+      },
+      "category": "Abon Nusantara",
+      "offers": {
+        "@type": "Offer",
+        "url": "https://sekriukcoff.web.id/produk/serabona-abon-ayam-100g.html",
+        "priceCurrency": "IDR",
+        "price": "17000",
+        "priceValidUntil": "2027-12-31",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@type": "Person",
+          "name": "Artha (CP Serabona)",
+          "telephone": "+62-813-3363-3565"
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "ID",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 2,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "15000",
+            "currency": "IDR"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "ID"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 0,
+              "maxValue": 1,
+              "unitCode": "DAY"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 3,
+              "unitCode": "DAY"
+            }
           }
         }
       },
-      {
-        "@type": "FAQPage",
-        "@id": "https://sekriukcoff.web.id/produk/serabona-abon-ayam-100g.html#faq",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Apakah Serabona Abon Ayam aman untuk anak-anak?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Sangat aman dan disukai anak-anak. Rasanya gurih manis lembut dengan serat ayam halus serta renyahnya kacang sangrai, sangat cocok sebagai booster nafsu makan balita di atas 1 tahun."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Bagaimana cara penyimpanan setelah seal dibuka?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Tutup rapat kembali tutup toples jar setelah mengambil abon dengan sendok kering dan bersih. Simpan di tempat sejuk dan kering. Tidak wajib disimpan di kulkas."
-            }
-          }
-        ]
+      "mpn": "MPN-SB-AYM100",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "45",
+        "bestRating": "5",
+        "worstRating": "1"
       },
-      {
-        "@type": [
-          "Organization",
-          "Store"
-        ],
-        "@id": "https://sekriukcoff.web.id/#organization",
-        "name": "Sekriukcoff",
-        "legalName": "Sekriukcoff - Kolektif Kuliner Artisan UMKM Malang",
-        "alternateName": [
-          "SErabona KRIUK saujana COFFee digital",
-          "Sekriukcoff Malang",
-          "Kolektif Kuliner Artisan Malang"
-        ],
-        "url": "https://sekriukcoff.web.id/",
-        "logo": {
-          "@type": "ImageObject",
-          "@id": "https://sekriukcoff.web.id/#logo",
-          "url": "https://sekriukcoff.web.id/assets/img/sekriukcoff.webp",
-          "caption": "Logo Sekriukcoff",
-          "width": "512",
-          "height": "512"
+      "review": {
+        "@type": "Review",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
         },
-        "image": "https://sekriukcoff.web.id/assets/img/sekriukcoff.webp",
-        "description": "Kolektif resmi tiga produsen kuliner artisan UMKM unggulan Malang: Keripik Tempe Kriuk Saujana, Kopi Robusta Dampit Semeru Coffee Digital, dan Abon Daging Sapi & Ayam Serabona.",
-        "telephone": "+62-815-5338-8310",
-        "priceRange": "Rp10.000 - Rp75.000",
-        "currenciesAccepted": "IDR",
-        "paymentAccepted": "Cash, Bank Transfer, QRIS",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Malang",
-          "addressLocality": "Malang",
-          "addressRegion": "Jawa Timur",
-          "postalCode": "65100",
-          "addressCountry": "ID"
+        "author": {
+          "@type": "Person",
+          "name": "Dewi Lestari"
         },
-        "geo": {
-          "@type": "GeoCoordinates",
-          "latitude": -7.983908,
-          "longitude": 112.621391
-        },
-        "contactPoint": [
-          {
-            "@type": "ContactPoint",
-            "telephone": "+62-815-5338-8310",
-            "contactType": "sales",
-            "name": "Talita (CP Kriuk Saujana)",
-            "areaServed": "ID",
-            "availableLanguage": [
-              "id",
-              "en"
-            ]
-          },
-          {
-            "@type": "ContactPoint",
-            "telephone": "+62-813-3363-3565",
-            "contactType": "sales",
-            "name": "Artha (CP Serabona)",
-            "areaServed": "ID",
-            "availableLanguage": [
-              "id",
-              "en"
-            ]
-          },
-          {
-            "@type": "ContactPoint",
-            "telephone": "+62-881-0266-96817",
-            "contactType": "sales",
-            "name": "Jessika (CP Coffee Digital)",
-            "areaServed": "ID",
-            "availableLanguage": [
-              "id",
-              "en"
-            ]
-          }
-        ]
+        "reviewBody": "Serat daging ayamnya terasa asli dan berpadu gurih renyah dengan taburan kacang rempahnya."
       }
-    ]
-  }
-  </script>
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://sekriukcoff.web.id/produk/serabona-abon-ayam-100g.html#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Apakah Serabona Abon Ayam aman untuk anak-anak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sangat aman dan disukai anak-anak. Rasanya gurih manis lembut dengan serat ayam halus serta renyahnya kacang sangrai, sangat cocok sebagai booster nafsu makan balita di atas 1 tahun."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Bagaimana cara penyimpanan setelah seal dibuka?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tutup rapat kembali tutup toples jar setelah mengambil abon dengan sendok kering dan bersih. Simpan di tempat sejuk dan kering. Tidak wajib disimpan di kulkas."
+          }
+        }
+      ]
+    },
+    {
+      "@type": [
+        "Organization",
+        "Store"
+      ],
+      "@id": "https://sekriukcoff.web.id/#organization",
+      "name": "Sekriukcoff",
+      "legalName": "Sekriukcoff - Kolektif Kuliner Artisan UMKM Malang",
+      "alternateName": [
+        "SErabona KRIUK saujana COFFee digital",
+        "Sekriukcoff Malang",
+        "Kolektif Kuliner Artisan Malang"
+      ],
+      "url": "https://sekriukcoff.web.id/",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://sekriukcoff.web.id/#logo",
+        "url": "https://sekriukcoff.web.id/assets/img/sekriukcoff.webp",
+        "caption": "Logo Sekriukcoff",
+        "width": "512",
+        "height": "512"
+      },
+      "image": "https://sekriukcoff.web.id/assets/img/sekriukcoff.webp",
+      "description": "Kolektif resmi tiga produsen kuliner artisan UMKM unggulan Malang: Keripik Tempe Kriuk Saujana, Kopi Robusta Dampit Semeru Coffee Digital, dan Abon Daging Sapi & Ayam Serabona.",
+      "telephone": "+62-815-5338-8310",
+      "priceRange": "Rp10.000 - Rp75.000",
+      "currenciesAccepted": "IDR",
+      "paymentAccepted": "Cash, Bank Transfer, QRIS",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Malang",
+        "addressLocality": "Malang",
+        "addressRegion": "Jawa Timur",
+        "postalCode": "65100",
+        "addressCountry": "ID"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -7.983908,
+        "longitude": 112.621391
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+62-815-5338-8310",
+          "contactType": "sales",
+          "name": "Talita (CP Kriuk Saujana)",
+          "areaServed": "ID",
+          "availableLanguage": [
+            "id",
+            "en"
+          ]
+        },
+        {
+          "@type": "ContactPoint",
+          "telephone": "+62-813-3363-3565",
+          "contactType": "sales",
+          "name": "Artha (CP Serabona)",
+          "areaServed": "ID",
+          "availableLanguage": [
+            "id",
+            "en"
+          ]
+        },
+        {
+          "@type": "ContactPoint",
+          "telephone": "+62-881-0266-96817",
+          "contactType": "sales",
+          "name": "Jessika (CP Coffee Digital)",
+          "areaServed": "ID",
+          "availableLanguage": [
+            "id",
+            "en"
+          ]
+        }
+      ]
+    }
+  ]
+}
+    </script>
 </head>
 <body>
 
@@ -270,7 +326,7 @@
     <!-- Section Utama Produk -->
     <section class="section-padding bg-white-custom border-bottom">
       <div class="container">
-        <div class="row g-4 g-lg-5 align-items-start">
+        <div class="row g-4 g-lg-5">
           
           <!-- Kolom Foto Produk -->
           <div class="col-lg-6">

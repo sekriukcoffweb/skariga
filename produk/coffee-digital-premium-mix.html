@@ -46,169 +46,225 @@
 
   <!-- JSON-LD Schema (Product & BreadcrumbList) -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Beranda",
-            "item": "https://sekriukcoff.web.id/index.html"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Katalog Produk",
-            "item": "https://sekriukcoff.web.id/katalog.html"
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "Kopi Nusantara",
-            "item": "https://sekriukcoff.web.id/kategori/kopi.html"
-          },
-          {
-            "@type": "ListItem",
-            "position": 4,
-            "name": "Coffee Digital - Premium House Blend Mix 250g",
-            "item": "https://sekriukcoff.web.id/produk/coffee-digital-premium-mix.html"
-          }
-        ]
-      },
-      {
-        "@type": "Product",
-        "@id": "https://sekriukcoff.web.id/produk/coffee-digital-premium-mix.html#product",
-        "name": "Coffee Digital - Premium House Blend Mix 250g",
-        "image": [
-          "https://sekriukcoff.web.id/assets/img/Produk/Coffee%20Digital/katalog-premium-mix-specialty-250gr.webp"
-        ],
-        "description": "Racikan house blend istimewa memadukan Robusta Dampit Semeru dengan sentuhan Arabika specialty. Menghadirkan keseimbangan rasa bold dan aroma fruity floral elegan.",
-        "sku": "CD-MIX-PR250",
-        "brand": {
-          "@type": "Brand",
-          "name": "Coffee Digital"
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Beranda",
+          "item": "https://sekriukcoff.web.id/index.html"
         },
-        "category": "Kopi Nusantara",
-        "offers": {
-          "@type": "Offer",
-          "url": "https://sekriukcoff.web.id/produk/coffee-digital-premium-mix.html",
-          "priceCurrency": "IDR",
-          "price": "42000",
-          "priceValidUntil": "2027-12-31",
-          "itemCondition": "https://schema.org/NewCondition",
-          "availability": "https://schema.org/InStock",
-          "seller": {
-            "@type": "Person",
-            "name": "Jessika (CP Coffee Digital)",
-            "telephone": "+62-881-0266-96817"
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Katalog Produk",
+          "item": "https://sekriukcoff.web.id/katalog.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Kopi Nusantara",
+          "item": "https://sekriukcoff.web.id/kategori/kopi.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Coffee Digital - Premium House Blend Mix 250g",
+          "item": "https://sekriukcoff.web.id/produk/coffee-digital-premium-mix.html"
+        }
+      ]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://sekriukcoff.web.id/produk/coffee-digital-premium-mix.html#product",
+      "name": "Coffee Digital - Premium House Blend Mix 250g",
+      "image": [
+        "https://sekriukcoff.web.id/assets/img/Produk/Coffee%20Digital/katalog-premium-mix-specialty-250gr.webp"
+      ],
+      "description": "Racikan house blend istimewa memadukan Robusta Dampit Semeru dengan sentuhan Arabika specialty. Menghadirkan keseimbangan rasa bold dan aroma fruity floral elegan.",
+      "sku": "SKU-CD-PMIX250",
+      "brand": {
+        "@type": "Brand",
+        "name": "Coffee Digital"
+      },
+      "category": "Kopi Nusantara",
+      "offers": {
+        "@type": "Offer",
+        "url": "https://sekriukcoff.web.id/produk/coffee-digital-premium-mix.html",
+        "priceCurrency": "IDR",
+        "price": "42000",
+        "priceValidUntil": "2027-12-31",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@type": "Person",
+          "name": "Jessika (CP Coffee Digital)",
+          "telephone": "+62-881-0266-96817"
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "ID",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 2,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "15000",
+            "currency": "IDR"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "ID"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 0,
+              "maxValue": 1,
+              "unitCode": "DAY"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 3,
+              "unitCode": "DAY"
+            }
           }
         }
       },
-      {
-        "@type": "FAQPage",
-        "@id": "https://sekriukcoff.web.id/produk/coffee-digital-premium-mix.html#faq",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Apakah kopi Premium Mix aman untuk lambung yang sensitif?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Dengan tingkat sangrai medium dan perpaduan biji pilihan proses optimal, tingkat keasaman produk ini sangat seimbang dan nyaman dinikmati bagi penikmat kopi yang sensitif terhadap rasa pahit berlebih."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Metode seduh apa yang paling direkomendasikan untuk varian ini?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Sangat cocok untuk Pour Over (V60) suhu 90°C rasio 1:15 untuk menonjolkan aroma manis buah dan bunga kopi, maupun diseduh manual dengan metode Tubruk Halus khas Nusantara."
-            }
-          }
-        ]
+      "mpn": "MPN-CD-PMIX250",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "31",
+        "bestRating": "5",
+        "worstRating": "1"
       },
-      {
-        "@type": [
-          "Organization",
-          "Store"
-        ],
-        "@id": "https://sekriukcoff.web.id/#organization",
-        "name": "Sekriukcoff",
-        "legalName": "Sekriukcoff - Kolektif Kuliner Artisan UMKM Malang",
-        "alternateName": [
-          "SErabona KRIUK saujana COFFee digital",
-          "Sekriukcoff Malang",
-          "Kolektif Kuliner Artisan Malang"
-        ],
-        "url": "https://sekriukcoff.web.id/",
-        "logo": {
-          "@type": "ImageObject",
-          "@id": "https://sekriukcoff.web.id/#logo",
-          "url": "https://sekriukcoff.web.id/assets/img/sekriukcoff.webp",
-          "caption": "Logo Sekriukcoff",
-          "width": "512",
-          "height": "512"
+      "review": {
+        "@type": "Review",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
         },
-        "image": "https://sekriukcoff.web.id/assets/img/sekriukcoff.webp",
-        "description": "Kolektif resmi tiga produsen kuliner artisan UMKM unggulan Malang: Keripik Tempe Kriuk Saujana, Kopi Robusta Dampit Semeru Coffee Digital, dan Abon Daging Sapi & Ayam Serabona.",
-        "telephone": "+62-815-5338-8310",
-        "priceRange": "Rp10.000 - Rp75.000",
-        "currenciesAccepted": "IDR",
-        "paymentAccepted": "Cash, Bank Transfer, QRIS",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Malang",
-          "addressLocality": "Malang",
-          "addressRegion": "Jawa Timur",
-          "postalCode": "65100",
-          "addressCountry": "ID"
+        "author": {
+          "@type": "Person",
+          "name": "Farhan Hakim"
         },
-        "geo": {
-          "@type": "GeoCoordinates",
-          "latitude": -7.983908,
-          "longitude": 112.621391
-        },
-        "contactPoint": [
-          {
-            "@type": "ContactPoint",
-            "telephone": "+62-815-5338-8310",
-            "contactType": "sales",
-            "name": "Talita (CP Kriuk Saujana)",
-            "areaServed": "ID",
-            "availableLanguage": [
-              "id",
-              "en"
-            ]
-          },
-          {
-            "@type": "ContactPoint",
-            "telephone": "+62-813-3363-3565",
-            "contactType": "sales",
-            "name": "Artha (CP Serabona)",
-            "areaServed": "ID",
-            "availableLanguage": [
-              "id",
-              "en"
-            ]
-          },
-          {
-            "@type": "ContactPoint",
-            "telephone": "+62-881-0266-96817",
-            "contactType": "sales",
-            "name": "Jessika (CP Coffee Digital)",
-            "areaServed": "ID",
-            "availableLanguage": [
-              "id",
-              "en"
-            ]
-          }
-        ]
+        "reviewBody": "Kombinasi robusta dan arabika menghasilkan balance rasa yang pas antara kepekatan dan keasaman lembut."
       }
-    ]
-  }
-  </script>
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://sekriukcoff.web.id/produk/coffee-digital-premium-mix.html#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Apakah kopi Premium Mix aman untuk lambung yang sensitif?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dengan tingkat sangrai medium dan perpaduan biji pilihan proses optimal, tingkat keasaman produk ini sangat seimbang dan nyaman dinikmati bagi penikmat kopi yang sensitif terhadap rasa pahit berlebih."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Metode seduh apa yang paling direkomendasikan untuk varian ini?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sangat cocok untuk Pour Over (V60) suhu 90°C rasio 1:15 untuk menonjolkan aroma manis buah dan bunga kopi, maupun diseduh manual dengan metode Tubruk Halus khas Nusantara."
+          }
+        }
+      ]
+    },
+    {
+      "@type": [
+        "Organization",
+        "Store"
+      ],
+      "@id": "https://sekriukcoff.web.id/#organization",
+      "name": "Sekriukcoff",
+      "legalName": "Sekriukcoff - Kolektif Kuliner Artisan UMKM Malang",
+      "alternateName": [
+        "SErabona KRIUK saujana COFFee digital",
+        "Sekriukcoff Malang",
+        "Kolektif Kuliner Artisan Malang"
+      ],
+      "url": "https://sekriukcoff.web.id/",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://sekriukcoff.web.id/#logo",
+        "url": "https://sekriukcoff.web.id/assets/img/sekriukcoff.webp",
+        "caption": "Logo Sekriukcoff",
+        "width": "512",
+        "height": "512"
+      },
+      "image": "https://sekriukcoff.web.id/assets/img/sekriukcoff.webp",
+      "description": "Kolektif resmi tiga produsen kuliner artisan UMKM unggulan Malang: Keripik Tempe Kriuk Saujana, Kopi Robusta Dampit Semeru Coffee Digital, dan Abon Daging Sapi & Ayam Serabona.",
+      "telephone": "+62-815-5338-8310",
+      "priceRange": "Rp10.000 - Rp75.000",
+      "currenciesAccepted": "IDR",
+      "paymentAccepted": "Cash, Bank Transfer, QRIS",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Malang",
+        "addressLocality": "Malang",
+        "addressRegion": "Jawa Timur",
+        "postalCode": "65100",
+        "addressCountry": "ID"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -7.983908,
+        "longitude": 112.621391
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+62-815-5338-8310",
+          "contactType": "sales",
+          "name": "Talita (CP Kriuk Saujana)",
+          "areaServed": "ID",
+          "availableLanguage": [
+            "id",
+            "en"
+          ]
+        },
+        {
+          "@type": "ContactPoint",
+          "telephone": "+62-813-3363-3565",
+          "contactType": "sales",
+          "name": "Artha (CP Serabona)",
+          "areaServed": "ID",
+          "availableLanguage": [
+            "id",
+            "en"
+          ]
+        },
+        {
+          "@type": "ContactPoint",
+          "telephone": "+62-881-0266-96817",
+          "contactType": "sales",
+          "name": "Jessika (CP Coffee Digital)",
+          "areaServed": "ID",
+          "availableLanguage": [
+            "id",
+            "en"
+          ]
+        }
+      ]
+    }
+  ]
+}
+    </script>
 </head>
 
 <body>
@@ -278,7 +334,7 @@
     <!-- Section Utama Produk -->
     <section class="section-padding bg-white-custom border-bottom">
       <div class="container">
-        <div class="row g-4 g-lg-5 align-items-start">
+        <div class="row g-4 g-lg-5">
 
           <!-- Kolom Foto Produk -->
           <div class="col-lg-6">

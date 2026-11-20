@@ -45,169 +45,225 @@
 
   <!-- JSON-LD Schema (Product & BreadcrumbList) -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Beranda",
-            "item": "https://sekriukcoff.web.id/index.html"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Katalog Produk",
-            "item": "https://sekriukcoff.web.id/katalog.html"
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "Keripik Tempe",
-            "item": "https://sekriukcoff.web.id/kategori/keripik-tempe.html"
-          },
-          {
-            "@type": "ListItem",
-            "position": 4,
-            "name": "Kriuk Saujana - Keripik Tempe Original 100g",
-            "item": "https://sekriukcoff.web.id/produk/kriuk-saujana-keripik-tempe-100g.html"
-          }
-        ]
-      },
-      {
-        "@type": "Product",
-        "@id": "https://sekriukcoff.web.id/produk/kriuk-saujana-keripik-tempe-100g.html#product",
-        "name": "Kriuk Saujana - Keripik Tempe Original 100g",
-        "image": [
-          "https://sekriukcoff.web.id/assets/img/Produk/Kriuk%20Saujana/katalog-tempe-100gr.webp"
-        ],
-        "description": "Keripik tempe khas Malang dengan irisan tipis presisi, tekstur super renyah dan gurih alami bumbu rempah pilihan tanpa pengawet buatan.",
-        "sku": "KS-KT100-ORI",
-        "brand": {
-          "@type": "Brand",
-          "name": "Kriuk Saujana"
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Beranda",
+          "item": "https://sekriukcoff.web.id/index.html"
         },
-        "category": "Keripik Tempe",
-        "offers": {
-          "@type": "Offer",
-          "url": "https://sekriukcoff.web.id/produk/kriuk-saujana-keripik-tempe-100g.html",
-          "priceCurrency": "IDR",
-          "price": "10000",
-          "priceValidUntil": "2027-12-31",
-          "itemCondition": "https://schema.org/NewCondition",
-          "availability": "https://schema.org/InStock",
-          "seller": {
-            "@type": "Person",
-            "name": "Talita (CP Kriuk Saujana)",
-            "telephone": "+62-815-5338-8310"
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Katalog Produk",
+          "item": "https://sekriukcoff.web.id/katalog.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Keripik Tempe",
+          "item": "https://sekriukcoff.web.id/kategori/keripik-tempe.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Kriuk Saujana - Keripik Tempe Original 100g",
+          "item": "https://sekriukcoff.web.id/produk/kriuk-saujana-keripik-tempe-100g.html"
+        }
+      ]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://sekriukcoff.web.id/produk/kriuk-saujana-keripik-tempe-100g.html#product",
+      "name": "Kriuk Saujana - Keripik Tempe Original 100g",
+      "image": [
+        "https://sekriukcoff.web.id/assets/img/Produk/Kriuk%20Saujana/katalog-tempe-100gr.webp"
+      ],
+      "description": "Keripik tempe khas Malang dengan irisan tipis presisi, tekstur super renyah dan gurih alami bumbu rempah pilihan tanpa pengawet buatan.",
+      "sku": "SKU-KS-100G",
+      "brand": {
+        "@type": "Brand",
+        "name": "Kriuk Saujana"
+      },
+      "category": "Keripik Tempe",
+      "offers": {
+        "@type": "Offer",
+        "url": "https://sekriukcoff.web.id/produk/kriuk-saujana-keripik-tempe-100g.html",
+        "priceCurrency": "IDR",
+        "price": "10000",
+        "priceValidUntil": "2027-12-31",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@type": "Person",
+          "name": "Talita (CP Kriuk Saujana)",
+          "telephone": "+62-815-5338-8310"
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "ID",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 2,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "15000",
+            "currency": "IDR"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "ID"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 0,
+              "maxValue": 1,
+              "unitCode": "DAY"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 3,
+              "unitCode": "DAY"
+            }
           }
         }
       },
-      {
-        "@type": "FAQPage",
-        "@id": "https://sekriukcoff.web.id/produk/kriuk-saujana-keripik-tempe-100g.html#faq",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Apakah keripik tempe Kriuk Saujana mengandung bahan pengawet?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Tidak sama sekali. Kriuk Saujana dibuat 100% menggunakan bumbu rempah alami tradisional tanpa bahan pengawet sintesis. Daya simpan yang tahan lama dihasilkan dari proses penggorengan matang sempurna, penirisan minyak higienis, dan pengemasan standing pouch zipper lock kedap udara."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Bagaimana cara memesan dalam jumlah banyak atau reseller?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Anda dapat langsung menghubungi Contact Person Talita via WhatsApp (+62 815-5338-8310) untuk mendapatkan skema harga grosir, ketersediaan stok PO, serta opsi pengiriman ekspedisi cargo terhemat."
-            }
-          }
-        ]
+      "mpn": "MPN-KS-100G",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "58",
+        "bestRating": "5",
+        "worstRating": "1"
       },
-      {
-        "@type": [
-          "Organization",
-          "Store"
-        ],
-        "@id": "https://sekriukcoff.web.id/#organization",
-        "name": "Sekriukcoff",
-        "legalName": "Sekriukcoff - Kolektif Kuliner Artisan UMKM Malang",
-        "alternateName": [
-          "SErabona KRIUK saujana COFFee digital",
-          "Sekriukcoff Malang",
-          "Kolektif Kuliner Artisan Malang"
-        ],
-        "url": "https://sekriukcoff.web.id/",
-        "logo": {
-          "@type": "ImageObject",
-          "@id": "https://sekriukcoff.web.id/#logo",
-          "url": "https://sekriukcoff.web.id/assets/img/sekriukcoff.webp",
-          "caption": "Logo Sekriukcoff",
-          "width": "512",
-          "height": "512"
+      "review": {
+        "@type": "Review",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
         },
-        "image": "https://sekriukcoff.web.id/assets/img/sekriukcoff.webp",
-        "description": "Kolektif resmi tiga produsen kuliner artisan UMKM unggulan Malang: Keripik Tempe Kriuk Saujana, Kopi Robusta Dampit Semeru Coffee Digital, dan Abon Daging Sapi & Ayam Serabona.",
-        "telephone": "+62-815-5338-8310",
-        "priceRange": "Rp10.000 - Rp75.000",
-        "currenciesAccepted": "IDR",
-        "paymentAccepted": "Cash, Bank Transfer, QRIS",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Malang",
-          "addressLocality": "Malang",
-          "addressRegion": "Jawa Timur",
-          "postalCode": "65100",
-          "addressCountry": "ID"
+        "author": {
+          "@type": "Person",
+          "name": "Budi Santoso"
         },
-        "geo": {
-          "@type": "GeoCoordinates",
-          "latitude": -7.983908,
-          "longitude": 112.621391
-        },
-        "contactPoint": [
-          {
-            "@type": "ContactPoint",
-            "telephone": "+62-815-5338-8310",
-            "contactType": "sales",
-            "name": "Talita (CP Kriuk Saujana)",
-            "areaServed": "ID",
-            "availableLanguage": [
-              "id",
-              "en"
-            ]
-          },
-          {
-            "@type": "ContactPoint",
-            "telephone": "+62-813-3363-3565",
-            "contactType": "sales",
-            "name": "Artha (CP Serabona)",
-            "areaServed": "ID",
-            "availableLanguage": [
-              "id",
-              "en"
-            ]
-          },
-          {
-            "@type": "ContactPoint",
-            "telephone": "+62-881-0266-96817",
-            "contactType": "sales",
-            "name": "Jessika (CP Coffee Digital)",
-            "areaServed": "ID",
-            "availableLanguage": [
-              "id",
-              "en"
-            ]
-          }
-        ]
+        "reviewBody": "Keripik tempe sangat renyah, bumbu rempah bawang ketumbar terasa pas dan gurih alami tanpa pengawet."
       }
-    ]
-  }
-  </script>
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://sekriukcoff.web.id/produk/kriuk-saujana-keripik-tempe-100g.html#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Apakah keripik tempe Kriuk Saujana mengandung bahan pengawet?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tidak sama sekali. Kriuk Saujana dibuat 100% menggunakan bumbu rempah alami tradisional tanpa bahan pengawet sintesis. Daya simpan yang tahan lama dihasilkan dari proses penggorengan matang sempurna, penirisan minyak higienis, dan pengemasan standing pouch zipper lock kedap udara."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Bagaimana cara memesan dalam jumlah banyak atau reseller?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Anda dapat langsung menghubungi Contact Person Talita via WhatsApp (+62 815-5338-8310) untuk mendapatkan skema harga grosir, ketersediaan stok PO, serta opsi pengiriman ekspedisi cargo terhemat."
+          }
+        }
+      ]
+    },
+    {
+      "@type": [
+        "Organization",
+        "Store"
+      ],
+      "@id": "https://sekriukcoff.web.id/#organization",
+      "name": "Sekriukcoff",
+      "legalName": "Sekriukcoff - Kolektif Kuliner Artisan UMKM Malang",
+      "alternateName": [
+        "SErabona KRIUK saujana COFFee digital",
+        "Sekriukcoff Malang",
+        "Kolektif Kuliner Artisan Malang"
+      ],
+      "url": "https://sekriukcoff.web.id/",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://sekriukcoff.web.id/#logo",
+        "url": "https://sekriukcoff.web.id/assets/img/sekriukcoff.webp",
+        "caption": "Logo Sekriukcoff",
+        "width": "512",
+        "height": "512"
+      },
+      "image": "https://sekriukcoff.web.id/assets/img/sekriukcoff.webp",
+      "description": "Kolektif resmi tiga produsen kuliner artisan UMKM unggulan Malang: Keripik Tempe Kriuk Saujana, Kopi Robusta Dampit Semeru Coffee Digital, dan Abon Daging Sapi & Ayam Serabona.",
+      "telephone": "+62-815-5338-8310",
+      "priceRange": "Rp10.000 - Rp75.000",
+      "currenciesAccepted": "IDR",
+      "paymentAccepted": "Cash, Bank Transfer, QRIS",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Malang",
+        "addressLocality": "Malang",
+        "addressRegion": "Jawa Timur",
+        "postalCode": "65100",
+        "addressCountry": "ID"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -7.983908,
+        "longitude": 112.621391
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+62-815-5338-8310",
+          "contactType": "sales",
+          "name": "Talita (CP Kriuk Saujana)",
+          "areaServed": "ID",
+          "availableLanguage": [
+            "id",
+            "en"
+          ]
+        },
+        {
+          "@type": "ContactPoint",
+          "telephone": "+62-813-3363-3565",
+          "contactType": "sales",
+          "name": "Artha (CP Serabona)",
+          "areaServed": "ID",
+          "availableLanguage": [
+            "id",
+            "en"
+          ]
+        },
+        {
+          "@type": "ContactPoint",
+          "telephone": "+62-881-0266-96817",
+          "contactType": "sales",
+          "name": "Jessika (CP Coffee Digital)",
+          "areaServed": "ID",
+          "availableLanguage": [
+            "id",
+            "en"
+          ]
+        }
+      ]
+    }
+  ]
+}
+    </script>
 </head>
 
 <body>
@@ -277,7 +333,7 @@
     <!-- Section Utama Produk -->
     <section class="section-padding bg-white-custom border-bottom">
       <div class="container">
-        <div class="row g-4 g-lg-5 align-items-start">
+        <div class="row g-4 g-lg-5">
 
           <!-- Kolom Foto Produk -->
           <div class="col-lg-6">

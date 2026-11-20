@@ -45,169 +45,225 @@
 
   <!-- JSON-LD Schema (Product & BreadcrumbList) -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Beranda",
-            "item": "https://sekriukcoff.web.id/index.html"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Katalog Produk",
-            "item": "https://sekriukcoff.web.id/katalog.html"
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "Kopi Nusantara",
-            "item": "https://sekriukcoff.web.id/kategori/kopi.html"
-          },
-          {
-            "@type": "ListItem",
-            "position": 4,
-            "name": "Coffee Digital - Premium Robusta Dampit 250g",
-            "item": "https://sekriukcoff.web.id/produk/coffee-digital-premium-robusta-dampit.html"
-          }
-        ]
-      },
-      {
-        "@type": "Product",
-        "@id": "https://sekriukcoff.web.id/produk/coffee-digital-premium-robusta-dampit.html#product",
-        "name": "Coffee Digital - Premium Robusta Dampit 250g",
-        "image": [
-          "https://sekriukcoff.web.id/assets/img/Produk/Coffee%20Digital/katalog-premium-robusta-dampit-250gr.webp"
-        ],
-        "description": "Kopi Robusta Dampit seleksi petik merah (fine robusta) dengan profil sangrai medium-dark presisi. Body tebal, aftertaste manis pekat, dan minim defect.",
-        "sku": "CD-ROB-PR250",
-        "brand": {
-          "@type": "Brand",
-          "name": "Coffee Digital"
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Beranda",
+          "item": "https://sekriukcoff.web.id/index.html"
         },
-        "category": "Kopi Nusantara",
-        "offers": {
-          "@type": "Offer",
-          "url": "https://sekriukcoff.web.id/produk/coffee-digital-premium-robusta-dampit.html",
-          "priceCurrency": "IDR",
-          "price": "37000",
-          "priceValidUntil": "2027-12-31",
-          "itemCondition": "https://schema.org/NewCondition",
-          "availability": "https://schema.org/InStock",
-          "seller": {
-            "@type": "Person",
-            "name": "Jessika (CP Coffee Digital)",
-            "telephone": "+62-881-0266-96817"
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Katalog Produk",
+          "item": "https://sekriukcoff.web.id/katalog.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Kopi Nusantara",
+          "item": "https://sekriukcoff.web.id/kategori/kopi.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Coffee Digital - Premium Robusta Dampit 250g",
+          "item": "https://sekriukcoff.web.id/produk/coffee-digital-premium-robusta-dampit.html"
+        }
+      ]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://sekriukcoff.web.id/produk/coffee-digital-premium-robusta-dampit.html#product",
+      "name": "Coffee Digital - Premium Robusta Dampit 250g",
+      "image": [
+        "https://sekriukcoff.web.id/assets/img/Produk/Coffee%20Digital/katalog-premium-robusta-dampit-250gr.webp"
+      ],
+      "description": "Kopi Robusta Dampit seleksi petik merah (fine robusta) dengan profil sangrai medium-dark presisi. Body tebal, aftertaste manis pekat, dan minim defect.",
+      "sku": "SKU-CD-PROB250",
+      "brand": {
+        "@type": "Brand",
+        "name": "Coffee Digital"
+      },
+      "category": "Kopi Nusantara",
+      "offers": {
+        "@type": "Offer",
+        "url": "https://sekriukcoff.web.id/produk/coffee-digital-premium-robusta-dampit.html",
+        "priceCurrency": "IDR",
+        "price": "37000",
+        "priceValidUntil": "2027-12-31",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@type": "Person",
+          "name": "Jessika (CP Coffee Digital)",
+          "telephone": "+62-881-0266-96817"
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "ID",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 2,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "15000",
+            "currency": "IDR"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "ID"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 0,
+              "maxValue": 1,
+              "unitCode": "DAY"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 3,
+              "unitCode": "DAY"
+            }
           }
         }
       },
-      {
-        "@type": "FAQPage",
-        "@id": "https://sekriukcoff.web.id/produk/coffee-digital-premium-robusta-dampit.html#faq",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Apa perbedaan utama antara varian Grade Robusta dan Premium Robusta?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Varian Premium menggunakan seleksi 100% buah petik merah dengan toleransi cacat biji (defect) di bawah 3%, menghasilkan profil rasa yang jauh lebih bersih, aftertaste manis karamel yang pekat, dan tanpa rasa pahit gosong."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Bagaimana cara menyimpan biji kopi agar aromanya tetap tahan lama?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Simpan dalam kemasan aslinya yang telah dilengkapi zipper dan valve, atau pindahkan ke wadah kedap udara yang tidak tembus cahaya di tempat sejuk dan kering, jauh dari sinar matahari langsung."
-            }
-          }
-        ]
+      "mpn": "MPN-CD-PROB250",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "29",
+        "bestRating": "5",
+        "worstRating": "1"
       },
-      {
-        "@type": [
-          "Organization",
-          "Store"
-        ],
-        "@id": "https://sekriukcoff.web.id/#organization",
-        "name": "Sekriukcoff",
-        "legalName": "Sekriukcoff - Kolektif Kuliner Artisan UMKM Malang",
-        "alternateName": [
-          "SErabona KRIUK saujana COFFee digital",
-          "Sekriukcoff Malang",
-          "Kolektif Kuliner Artisan Malang"
-        ],
-        "url": "https://sekriukcoff.web.id/",
-        "logo": {
-          "@type": "ImageObject",
-          "@id": "https://sekriukcoff.web.id/#logo",
-          "url": "https://sekriukcoff.web.id/assets/img/sekriukcoff.webp",
-          "caption": "Logo Sekriukcoff",
-          "width": "512",
-          "height": "512"
+      "review": {
+        "@type": "Review",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
         },
-        "image": "https://sekriukcoff.web.id/assets/img/sekriukcoff.webp",
-        "description": "Kolektif resmi tiga produsen kuliner artisan UMKM unggulan Malang: Keripik Tempe Kriuk Saujana, Kopi Robusta Dampit Semeru Coffee Digital, dan Abon Daging Sapi & Ayam Serabona.",
-        "telephone": "+62-815-5338-8310",
-        "priceRange": "Rp10.000 - Rp75.000",
-        "currenciesAccepted": "IDR",
-        "paymentAccepted": "Cash, Bank Transfer, QRIS",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Malang",
-          "addressLocality": "Malang",
-          "addressRegion": "Jawa Timur",
-          "postalCode": "65100",
-          "addressCountry": "ID"
+        "author": {
+          "@type": "Person",
+          "name": "Ahmad Fauzi"
         },
-        "geo": {
-          "@type": "GeoCoordinates",
-          "latitude": -7.983908,
-          "longitude": 112.621391
-        },
-        "contactPoint": [
-          {
-            "@type": "ContactPoint",
-            "telephone": "+62-815-5338-8310",
-            "contactType": "sales",
-            "name": "Talita (CP Kriuk Saujana)",
-            "areaServed": "ID",
-            "availableLanguage": [
-              "id",
-              "en"
-            ]
-          },
-          {
-            "@type": "ContactPoint",
-            "telephone": "+62-813-3363-3565",
-            "contactType": "sales",
-            "name": "Artha (CP Serabona)",
-            "areaServed": "ID",
-            "availableLanguage": [
-              "id",
-              "en"
-            ]
-          },
-          {
-            "@type": "ContactPoint",
-            "telephone": "+62-881-0266-96817",
-            "contactType": "sales",
-            "name": "Jessika (CP Coffee Digital)",
-            "areaServed": "ID",
-            "availableLanguage": [
-              "id",
-              "en"
-            ]
-          }
-        ]
+        "reviewBody": "Biji kopi petik merah terseleksi menghasilkan seduhan robusta premium yang bersih dan minim ampas."
       }
-    ]
-  }
-  </script>
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://sekriukcoff.web.id/produk/coffee-digital-premium-robusta-dampit.html#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Apa perbedaan utama antara varian Grade Robusta dan Premium Robusta?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Varian Premium menggunakan seleksi 100% buah petik merah dengan toleransi cacat biji (defect) di bawah 3%, menghasilkan profil rasa yang jauh lebih bersih, aftertaste manis karamel yang pekat, dan tanpa rasa pahit gosong."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Bagaimana cara menyimpan biji kopi agar aromanya tetap tahan lama?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Simpan dalam kemasan aslinya yang telah dilengkapi zipper dan valve, atau pindahkan ke wadah kedap udara yang tidak tembus cahaya di tempat sejuk dan kering, jauh dari sinar matahari langsung."
+          }
+        }
+      ]
+    },
+    {
+      "@type": [
+        "Organization",
+        "Store"
+      ],
+      "@id": "https://sekriukcoff.web.id/#organization",
+      "name": "Sekriukcoff",
+      "legalName": "Sekriukcoff - Kolektif Kuliner Artisan UMKM Malang",
+      "alternateName": [
+        "SErabona KRIUK saujana COFFee digital",
+        "Sekriukcoff Malang",
+        "Kolektif Kuliner Artisan Malang"
+      ],
+      "url": "https://sekriukcoff.web.id/",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://sekriukcoff.web.id/#logo",
+        "url": "https://sekriukcoff.web.id/assets/img/sekriukcoff.webp",
+        "caption": "Logo Sekriukcoff",
+        "width": "512",
+        "height": "512"
+      },
+      "image": "https://sekriukcoff.web.id/assets/img/sekriukcoff.webp",
+      "description": "Kolektif resmi tiga produsen kuliner artisan UMKM unggulan Malang: Keripik Tempe Kriuk Saujana, Kopi Robusta Dampit Semeru Coffee Digital, dan Abon Daging Sapi & Ayam Serabona.",
+      "telephone": "+62-815-5338-8310",
+      "priceRange": "Rp10.000 - Rp75.000",
+      "currenciesAccepted": "IDR",
+      "paymentAccepted": "Cash, Bank Transfer, QRIS",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Malang",
+        "addressLocality": "Malang",
+        "addressRegion": "Jawa Timur",
+        "postalCode": "65100",
+        "addressCountry": "ID"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -7.983908,
+        "longitude": 112.621391
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+62-815-5338-8310",
+          "contactType": "sales",
+          "name": "Talita (CP Kriuk Saujana)",
+          "areaServed": "ID",
+          "availableLanguage": [
+            "id",
+            "en"
+          ]
+        },
+        {
+          "@type": "ContactPoint",
+          "telephone": "+62-813-3363-3565",
+          "contactType": "sales",
+          "name": "Artha (CP Serabona)",
+          "areaServed": "ID",
+          "availableLanguage": [
+            "id",
+            "en"
+          ]
+        },
+        {
+          "@type": "ContactPoint",
+          "telephone": "+62-881-0266-96817",
+          "contactType": "sales",
+          "name": "Jessika (CP Coffee Digital)",
+          "areaServed": "ID",
+          "availableLanguage": [
+            "id",
+            "en"
+          ]
+        }
+      ]
+    }
+  ]
+}
+    </script>
 </head>
 
 <body>
@@ -277,7 +333,7 @@
     <!-- Section Utama Produk -->
     <section class="section-padding bg-white-custom border-bottom">
       <div class="container">
-        <div class="row g-4 g-lg-5 align-items-start">
+        <div class="row g-4 g-lg-5">
 
           <!-- Kolom Foto Produk -->
           <div class="col-lg-6">
