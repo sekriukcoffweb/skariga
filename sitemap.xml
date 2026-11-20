@@ -95,23 +95,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>https://sekriukcoff.web.id/produk/serabona-abon-sapi-jar-250g.html</loc>
-    <lastmod>2026-11-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
 
   <!-- Halaman Artikel & Edukasi Kuliner -->
   <url>
-    <loc>https://sekriukcoff.web.id/artikel.html</loc>
-    <lastmod>2026-11-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://sekriukcoff.web.id/artikel/index.html</loc>
-    <lastmod>2026-11-19</lastmod>
+    <loc>https://sekriukcoff.web.id/blog.html</loc>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
