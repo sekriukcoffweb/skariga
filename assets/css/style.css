@@ -1195,11 +1195,22 @@ textarea:focus-visible {
 /* --------------------------------------------------------------------------
    Product Detail Sticky Sidebar (Desktop)
    -------------------------------------------------------------------------- */
-@media (min-width: 992px) {
+.product-sidebar-sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 85px;
+  z-index: 10;
+}
+
+@media (max-width: 991.98px) {
   .product-sidebar-sticky {
-    position: relative;
-    z-index: 10;
+    position: static;
   }
+}
+
+.row.align-items-start > .col-lg-4,
+.row:has(.product-sidebar-sticky) > .col-lg-4 {
+  align-self: stretch !important;
 }
 
 /* --------------------------------------------------------------------------
@@ -3570,4 +3581,53 @@ textarea:focus-visible {
   line-height: 1.5;
   margin-bottom: 1rem;
   flex-grow: 1;
+}
+
+
+/* Footer Social Media */
+.footer-social-wrap {
+  margin-top: 1.15rem;
+}
+
+.footer-social-label {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #8C532B;
+  margin-bottom: 0.5rem;
+}
+
+.footer-social-links {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+.footer-social-btn {
+  width: 34px;
+  height: 34px;
+  border-radius: 8px;
+  background-color: #E8EFEA;
+  border: 1px solid #D2E0D6;
+  color: #1B3B2B;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.footer-social-btn:hover {
+  background-color: #1B3B2B;
+  border-color: #1B3B2B;
+  color: #FAF7F2;
+  transform: translateY(-2px);
+}
+
+.footer-social-btn svg {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
 }
